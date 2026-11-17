@@ -75,7 +75,7 @@ public class MioThread extends Thread {
                 inviaRisposta(out, "501 Not Implemented", "text/plain; charset=utf-8", "Comando \"" + comando + "\" non supportato.\n");
                 return;
             }
-
+            
             // Estrazione del nome file rimuovendo la '/' iniziale
             String nomeFile = risorsa.substring(1);
 
